@@ -1,3 +1,50 @@
 body {
   /* rules go here */
+  margin: 0;
+}
+
+.center {
+  margin-right : auto;
+  margin-left : auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display : block;
+}
+
+.logo {
+  height : 95px;
+  width : 269px;
+}
+
+.topNav {
+  margin-bottom: 150px;
+  height: 30px;
+}
+
+.input {
+  margin-top: 30px;
+  height : 30px;
+  width : 500px;
+}
+
+.btn {
+  height: 25px;
+}
+
+.navBar {
+ float: right;
+}
+
+.navBar li {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
 }
