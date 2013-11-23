@@ -1,3 +1,66 @@
 body{
   /* rules go here */
+  margin: 0;
+}
+
+.container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav{
+  float: right;
+  height: 50px;
+}
+
+.topnav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.topnav li a {
+  font-family: arial, helvetica;
+  color: blue;
+  font-weight: bold;
+  margin: 60px;
+}
+
+span {
+  font-family: arial;
+  font-size: 14px;
+}
+
+.login {
+  width: 80px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 2px 2px black;
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial, helvetica;
+  font-size: 42px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  /*width: 40%;*/
+  border: 5px solid #000;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.right input {
+  width: 250px;
 }
